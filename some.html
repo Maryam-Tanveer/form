@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Format</title>
+    <style>
+        body{
+            background-color: lightsalmon;
+        }
+        #color{
+            background-color: white;
+            width: 440px;
+            height: 480px;
+            margin: auto;  
+            padding: 47px;
+            border-radius: 10px; 
+            margin-top: 40px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        } 
+h1{
+    text-align: center;
+    margin-top: -7px;
+}
+p{
+    text-align: center;
+    margin-top: -18px;
+}
+#one1{
+    margin-top: 40px;
+   }
+       #new1,#new2{
+              display: inline-block;
+        }
+         #new3,#new4{
+              display: inline-block; 
+              margin-top: 40px;
+        } 
+        
+         #new5,#new6{
+              display: inline-block;
+           margin-top: 40px;
+        }
+        .new{
+            margin-top: 10px;
+        }
+        .dot{
+            margin-top: 8px;
+        }
+
+.size{
+    width: 200px;
+    height: 30px;
+} 
+.size1{
+    width: 208px;
+    height: 36px;
+} 
+#new2,#new4,#new6{
+    margin-left: 18px;
+}
+#one2{
+    margin-top: 40px;
+    text-align: center;
+    width: 160px;
+    height: 40px;
+     margin-left: 139px;
+     background-color:maroon;
+     color: white;
+     
+     border-radius: 3px;
+}
+
+    </style>
+</head>
+<body>
+    <form id="color">
+
+        <div>
+            <h1>Registration Form</h1>
+            <p>Fill out the form carefully for registration</p>
+       </div>
+
+       <div>
+               <div id="one1">Student Name</div>
+              <div class="new" id="new1" ><input class="size" type="text"><br><div class="dot" >First Name</div></div> 
+              <div class="new" id="new2"><input class="size" type="text"><br><div class="dot" >Last Name</div></div>  
+                
+       </div>
+
+       <div id="new3">
+           <div>Gender</div>
+
+           <div class="new">
+                   <select class="size1" > 
+                   <option  value="">Please Select </option>
+                   <option value=""> Male</option>
+                   <option value=""> Female</option>
+                </select>
+            </div>
+       </div>
+    
+       <div  id="new4">
+             <div>Student E-mail</div>
+                   <div class="new">
+                       <input class="size"  type="email">
+                  </div> 
+                    
+       </div>
+       <br>
+        
+       <div id="new5">
+            <div>Student ID</div>
+            
+            <div  class="new"  >
+                <input class="size" type="text">
+            </div>
+       </div>
+
+       <div id="new6">
+              <div>List of Classes</div>
+
+              <div  class="new" >
+
+                  <select class="size1" name="" id="">
+                      <option class="size" value="">Please Select</option>
+                      <option value="">One </option>
+                      <option value="">Two</option>
+                      <option value="">Three</option>
+                      <option value="">Four</option>
+                      <option value="">Five</option>
+                      <option value="">Six</option>
+                      <option value="">Seven</option>
+                      <option value="">Eigth</option>
+                      <option value="">Nine</option>
+                      <option value="">Ten</option>
+                    </select>
+                </div>
+       </div>
+       <br>
+
+    <button id="one2">Submit</button>
+    </form>
+</body>
+</html>
