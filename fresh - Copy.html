@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+
+     <style>
+body{ 
+    background-color: rgb(221, 237, 243);
+}
+#color{ 
+    background-color:white ;
+
+ }
+         form{
+            width: 500px;
+            height: 490px;
+             margin: auto; 
+            padding: 30px;
+            border-radius: 10px; 
+            margin-top: 50px;
+            font-size: 17px;
+            font-family: sans-serif;
+        } 
+
+        #dot{ 
+           width: 100%;
+           border-radius: 5px;
+           height: 40px;
+           font: size 17px; 
+           font-family: sans-serif;
+           background-color: rgb(20, 107, 107)   ;
+           color: white;
+        }
+        
+        .item,.item2{ 
+            display: inline-block;  
+             }
+              
+             .item input{ 
+                width: 133%;
+                height: 30px;
+                border-radius: 5px;
+                margin-bottom: 10px;
+             }
+
+    #one{ 
+        margin-left: 73px;
+        margin-bottom: 10px;
+    }
+    .item2 input{ 
+                width: 133%;
+                height: 30px;
+                border-radius: 5px;
+             }
+             #two{ 
+                    margin-left: 73px;
+                 }
+
+        
+        .f-block input{
+             width:calc(100% - 9px); 
+            height: 30px; 
+           border-radius: 5px;
+        }
+
+        .d-block input{
+            width:calc(100% - 10px);
+            height: 60px; 
+           border-radius: 5px;
+        }   
+
+.f-block{
+    margin-bottom: 15px;
+}
+.form-box{
+    margin-bottom: 15px;
+}
+#three{
+    margin-bottom: 15px;
+}
+#dot{
+    margin-bottom: 15px;
+}
+#for{
+    margin-bottom: 15px;
+}
+
+#h1{
+    margin-top: 2px;
+}
+.height{
+    margin-bottom: 10px;
+} 
+
+    </style> 
+
+</head>
+<body>
+
+    <form id="color">
+
+        <div class="form-box" >
+            <h2 id="h1">Contact Us</h2>
+<div id="fresh">
+    <div class="item">
+
+        <div class="height" >First Name</div>
+        <input />
+
+    </div>
+
+    <div class="item" id="one">
+
+        <div class="height" >Last Name</div>
+        <input />
+
+    </div>
+        </div>
+        <div class="form-box" >
+            <div class="f-block">
+
+                <div class="height">Email Addres</div>
+                <input />
+
+            </div>
+
+             <div class="form-box" >  
+                 <div class="height">Query Type</div>  
+                 <div class="item2"><input type="text" placeholder="General Enquiry"> </div>
+                <div class="item2" id="two"><input type="text" placeholder="Support Request "></div>
+
+                  </div>
+
+            <div class="form-box" id="new3">
+                <div class="d-block" id="three">
+    
+                    <div class="height">Message</div>
+                    <input />
+
+            </div>
+            <div id="for">
+                <input type="checkbox">I consent to bring contacted by the team
+            </div>
+            <button class="height" id="dot">Submit</button>
+    </div>
+
+    </form>
+    
+</body>
+</html>
